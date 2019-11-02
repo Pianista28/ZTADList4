@@ -11,7 +11,7 @@ var.test(mniej30, po30)
 
 #We can perform ttest, one side
 # h0 - the same level of amusement
-# h1 - "mniej30" have the higher level of amusement
+# h1 - "mniej30" have a higher level of amusement
 
 ttestResult2 <- t.test(mniej30, po30, var.equal = TRUE, conf.level = 0.95, alternative = c("greater"))
 ttestResult2

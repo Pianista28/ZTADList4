@@ -11,7 +11,7 @@ var.test(nerwowi, spokojni)
 
 #We can perform ttest, one side
 # h0 - the same level of energy
-# h1 - "Nerwowi" have the higher level of energy
+# h1 - "Nerwowi" have a higher level of energy
 
 ttestResult1 <- t.test(nerwowi, spokojni, var.equal = TRUE, conf.level = 0.95, alternative = c("greater"))
 ttestResult1
