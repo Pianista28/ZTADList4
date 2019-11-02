@@ -2,7 +2,11 @@ nerwowi <- c(3, 3, 4, 5, 5)
 spokojni <- c(4, 6, 7, 9, 9)
 
 swNerwowi <- shapiro.test(nerwowi)
+qqnorm(nerwowi)
+qqline(nerwowi)
 swSpokojni <- shapiro.test(spokojni)
+qqnorm(spokojni)
+qqline(spokojni)
 #both are normal distribution
 
 varEqual <- var.test(nerwowi, spokojni)
